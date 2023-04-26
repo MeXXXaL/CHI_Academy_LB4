@@ -1,0 +1,10 @@
+Current time           Wed Apr 26 10:33:31 2023
+Queue size             10
+Queue size in Kb       0.46875
+Maximum difference     53 minutes
+
+Persantage
+                       Critical - 30%
+                       Major - 30%
+                       Medium - 20%
+                       Minor - 20%
