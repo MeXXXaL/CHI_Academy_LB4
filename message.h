@@ -44,6 +44,7 @@ public:
 
 
 // ================== Checkers ==================
+    
     bool expired(const std::chrono::system_clock::time_point& time) const;
     bool expired() const;
     bool moreUrgentThan(const Message& other) const;
