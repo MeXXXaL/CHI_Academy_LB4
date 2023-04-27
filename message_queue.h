@@ -94,7 +94,7 @@ void MessageQueue<T>::push(Message<T>&& msg)
 
     if (size() < limit())
     {
-        pushInOrder(move(msg));
+        pushInOrder(std::move(msg));
     }
     else
     {
