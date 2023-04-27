@@ -128,7 +128,7 @@ Message<T> MessageQueue<T>::get()
         return msg;
     }
     else
-        throw std::runtime_error("All messages had terminated");
+        throw std::runtime_error("All messages expired");
 }
 
 template<typename T>
